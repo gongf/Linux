@@ -22,6 +22,6 @@ int main(int argc, char *argv[])
     }
     int pid = atoi(argv[2]);
     int sig = atoi(argv[1]);
-    kill(pid, sig);
+    kill(pid, sig);     //外壳程序，外层实现kill函数功能
     return 0;
 }
